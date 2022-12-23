@@ -164,8 +164,8 @@ a {
     left: 0;
     bottom: 0;
     z-index: -1;
-    background: linear-gradient(0deg, rgba(17, 17, 17, 0.796) 56%, rgb(17, 17, 17) 80%);
-    opacity: 0.9775;
+    background: linear-gradient(0deg, rgba(17, 17, 17, 0.796) 50%, rgb(17, 17, 17) 85%);
+    opacity: 1;
 }
 
 .containerSectionTwo {
