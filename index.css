@@ -50,12 +50,11 @@ header {
     font-size: 1.5rem;
 }
 
-ul {
+header ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    z-index: 10;
-    position: relative;
+
 }
 
 
@@ -86,8 +85,6 @@ span {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    z-index: 1;
-    position: relative;
     color: rgb(255, 255, 255);
 }
 
@@ -104,9 +101,6 @@ span {
 
 }
 
-.contenedorMain__imagen img {
-    position: relative;
-}
 .contenedorMain__imagen::before {
     content: ' ';
     position: absolute;
@@ -132,7 +126,7 @@ span {
     background-image: url('Images/backgroundSkills.jpg');
     background-size: cover;  /*VER QUE PASÓ ACÁ QUE SE ME ACHICA LA IMAGEN*/
     background-position: center;
-    z-index: -2;
+    z-index: 0;
 }
 
 .sectionDos h2 {
