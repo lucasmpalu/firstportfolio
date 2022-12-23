@@ -283,7 +283,7 @@ hr {
      /* EL MIN-WIDTH DE ACÁ ABAJO FUE MUY IMPORTANTE PARA ARREGLAR QUE EL BACKGROUND-COLOR SE ACHICABA CUANDO ACHICABA EL NAVEGADOR */
      min-width: max-content; 
      /* EL MIN-WIDTH DE ACÁ ARRIBA FUE MUY IMPORTANTE PARA ARREGLAR QUE EL BACKGROUND-COLOR SE ACHICABA CUANDO ACHICABA EL NAVEGADOR */
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(30, 30, 30);
 }
 .containerSectionFour {
     padding: 3rem 0;
@@ -322,13 +322,14 @@ form input, form textarea {
 }
 
 form button {
-    width: 30%;
+    
     background: inherit;
     border: none;
     border-bottom: 4px solid rgb(54, 250, 185);
     color: white;
     padding: 2px 0;
     margin-top: 1rem;
+    font-weight: 600;
 }
 
 /* FOOTER */
@@ -339,7 +340,7 @@ footer ul {
     gap: 1rem;
 }
 footer {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(30, 30, 30);
 }
 
 footer .containerFooter {
