@@ -55,12 +55,13 @@ header {
     font-size: 1.5rem;
 }
 
-header ul {
+header ul, footer ul, .sectionThree ul {
     list-style: none;
     display: flex;
     gap: 1rem;
-
 }
+
+
 
 
 a {
