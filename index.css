@@ -263,7 +263,14 @@ hr {
 
 .containerGridProjects img {
     height: 205px;
+    width: 320px;
 
+}
+
+.divProject {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 /* SECTION FORM */
@@ -298,6 +305,7 @@ hr {
 
 .contactText {
     width: 40%;
+    display: grid
 }
 
 .containerForm {
@@ -308,7 +316,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 1rem;
+    gap: 12px;
 }
 
 form input, form textarea {
