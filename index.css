@@ -110,7 +110,7 @@ a {
     font-weight: 600;
 }
 
-.containercontainerMain__imagen::before {
+/* .containercontainerMain__imagen::before {
     content: ' ';
     position: absolute;
     top: 0;
@@ -119,8 +119,8 @@ a {
     bottom: 0;
     z-index: 1;
     background: rgb(0, 0, 0);
-    opacity: 0.4;
-}
+    opacity: 1;
+} */
 
 .circulo{
     width: 100px;
